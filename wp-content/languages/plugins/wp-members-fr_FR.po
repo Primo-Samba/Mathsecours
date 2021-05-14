@@ -1,0 +1,1980 @@
+# Translation of Plugins - WP-Members Membership Plugin - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - WP-Members Membership Plugin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-03 10:51:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - WP-Members Membership Plugin - Stable (latest release)\n"
+
+#: includes/class-wp-members-validation-link.php:35
+msgid "Your account is now pending approval"
+msgstr "Votre compte est désormais en attente d’approbation"
+
+#: includes/class-wp-members-pwd-reset.php:160
+msgid "The passwords do not match."
+msgstr "Les mots de passe ne correspondent pas."
+
+#: includes/admin/class-wp-members-admin-api.php:402
+#: includes/admin/class-wp-members-admin-api.php:420
+msgid "User email validated"
+msgstr "L’e-mail du compte est validé"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:185
+msgid "Add WP-Members fields to WooCommerce registration during checkout"
+msgstr "Ajouter les champs WP-Members à l’inscription WooCommerce lors de la commande"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:185
+msgid "WooCommerce Checkout"
+msgstr "Commande WooCommerce"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:184
+msgid "Add WP-Members fields to WooCommerce My Account registration"
+msgstr "Ajouter les champs WP-Members à l’inscription à « Mon compte » WooCommerce"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:184
+msgid "WooCommerce My Account"
+msgstr "« Mon compte » WooCommerce"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:447
+msgid "Confirmed"
+msgstr "Confirmée"
+
+#: includes/admin/class-wp-members-admin-users.php:463
+msgid "Not confirmed"
+msgstr "Non confirmée"
+
+#: includes/admin/class-wp-members-admin-users.php:210
+msgid "That user is already confirmed"
+msgstr "Ce compte est déjà confirmé."
+
+#: includes/admin/class-wp-members-admin-users.php:206
+msgid "%s unconfirmed"
+msgstr "%s non confirmé"
+
+#: includes/admin/class-wp-members-admin-users.php:201
+msgid "%s confirmed"
+msgstr "%s confirmé"
+
+#: includes/admin/class-wp-members-admin-users.php:196
+msgid "You cannot confirm or unconfirm yourself"
+msgstr "Vous ne pouvez pas vous confirmer ou vous déconfirmer vous-même"
+
+#: includes/admin/class-wp-members-admin-users.php:65
+msgid "Unconfirm"
+msgstr "Déconfirmer"
+
+#: includes/admin/class-wp-members-admin-users.php:62
+msgid "Confirm"
+msgstr "Confirmer"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:179
+msgid "Confirmation Link"
+msgstr "Lien de confirmation"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:136
+msgid "hCaptcha requires an API key. You can sign up for %s an hCaptcha API key here %s"
+msgstr "hCaptcha nécessite une clé d’API. Vous pouvez vous inscrire %s ici pour obtenir une clé d’API hCaptcha %s"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:106
+msgid "CAPTCHA type was changed. Please verify and update the settings below for the new CAPTCHA type."
+msgstr "Le type de CAPTCHA a été modifié. Veuillez vérifier et mettre à jour les réglages ci-dessous pour le nouveau type de CAPTCHA."
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:91
+msgid "CAPTCHA Type"
+msgstr "Type de CAPTCHA"
+
+#: includes/cli/class-wp-members-cli-user.php:205
+msgid "User: %s"
+msgstr "Compte : %s"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:138
+msgid "API Key"
+msgstr "Clé de l’API"
+
+#: includes/admin/class-wp-members-admin-users.php:166
+msgid "You cannot activate or deactivate yourself"
+msgstr "Vous ne pouvez pas activer ou désactiver vous même"
+
+#: includes/admin/class-wp-members-products-admin.php:225
+msgid "Optional Properties"
+msgstr "Options facultatives"
+
+#: includes/admin/class-wp-members-products-admin.php:219
+msgid "Pre-selected by default for new %s"
+msgstr "Pré-sélectionné par défaut pour les nouveaux %s"
+
+#: includes/admin/class-wp-members-products-admin.php:208
+msgid "Optional Defaults"
+msgstr "Option par défaut"
+
+#: includes/admin/class-wp-members-admin-users.php:340
+msgid "Pending Activation"
+msgstr "Activation en attente"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:229
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:97
+msgid "reCAPTCHA v3"
+msgstr "reCAPTCHA v3"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:228
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:96
+msgid "reCAPTCHA v2"
+msgstr "reCAPTCHA v2"
+
+#: includes/admin/tabs/class-wp-members-fields-table.php:61
+msgid "Required"
+msgstr "Obligatoire"
+
+#: includes/admin/class-wp-members-products-admin.php:697
+msgid "Expiration date (optional)"
+msgstr "Date d’expiration (facultatif)"
+
+#: includes/admin/class-wp-members-products-admin.php:681
+msgid "Enabled?"
+msgstr "Activée ?"
+
+#: includes/admin/class-wp-members-products-admin.php:247
+msgid "Use \"no gap\" renewal"
+msgstr "Utiliser le renouvellement « sans interruption »."
+
+#: includes/admin/class-wp-members-products-admin.php:237
+msgid "Expires (optional)"
+msgstr "Expiré (facultatif)"
+
+#: includes/admin/class-wp-members-products-admin.php:228
+msgid "Role Required? (optional)"
+msgstr "Rôle nécessaire ? (facultatif)"
+
+#: includes/admin/class-wp-members-products-admin.php:211
+msgid "Assign as default at registration? (optional)"
+msgstr "Attribuer par défaut lors de l’inscription ? (facultatif)"
+
+#: includes/admin/class-wp-members-products-admin.php:92
+msgid "slug:"
+msgstr "slug :"
+
+#: includes/admin/class-wp-members-products-admin.php:66
+msgid "Default"
+msgstr "Défaut"
+
+#: includes/class-wp-members.php:1628
+msgid "Edit profile"
+msgstr "Modifier le profil"
+
+#: includes/class-wp-members.php:1627
+msgid "Log out"
+msgstr "Déconnexion"
+
+#: includes/class-wp-members.php:1490
+msgid "You have a linked page in the WP-Members page settings that corresponds to a post ID that no longer exists. Please %s review and update the %s page settings %s."
+msgstr "Vous avez un lien de page dans les réglages de la page WP-Members qui correspond à un ID de publication qui n’existe plus. Veuillez vérifier %s et mettre à jour les paramètres %s de la page %s."
+
+#: includes/class-wp-members.php:1091
+msgid "The page you are looking for does not exist"
+msgstr "La page que vous recherchez n’existe pas."
+
+#: includes/class-wp-members.php:1075 includes/class-wp-members.php:1085
+msgid "You must be logged in to view this content."
+msgstr "Vous devez être connecté pour voir ce contenu."
+
+#: includes/class-wp-members-menus.php:169
+msgid "Restrict menu item to a membership product"
+msgstr "Elément du menu restreint aux membres"
+
+#: includes/class-wp-members-menus.php:167
+msgid "%sAdd membership products%s to restrict menu to a membership"
+msgstr "%sAjouter des produits d’adhésion%s pour restreindre un menu à un membre"
+
+#: includes/class-wp-members-menus.php:153
+msgid "All Users"
+msgstr "Tous les utilisateurs"
+
+#: includes/class-wp-members-menus.php:146
+msgid "Logged Out Users"
+msgstr "Utilisateurs déconnectés"
+
+#: includes/class-wp-members-menus.php:139
+msgid "Logged In Users"
+msgstr "Utilisateurs connectés"
+
+#: includes/class-wp-members-menus.php:131
+msgid "Display"
+msgstr "Affichage"
+
+#: includes/walkers/class-wp-members-walker-nav-menu.php:223
+msgid "Remove"
+msgstr "Retirer"
+
+#: includes/walkers/class-wp-members-walker-nav-menu.php:210
+msgid "Original: %s"
+msgstr "Original : %s"
+
+#: includes/walkers/class-wp-members-walker-nav-menu.php:188
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr "La description sera affichée dans le menu si le thème actuel l’accepte."
+
+#: includes/walkers/class-wp-members-walker-nav-menu.php:180
+msgid "Link Relationship (XFN)"
+msgstr "Relation avec le propriétaire du site lié (XFN)"
+
+#: includes/walkers/class-wp-members-walker-nav-menu.php:174
+msgid "CSS Classes (optional)"
+msgstr "Classes CSS (facultatif)"
+
+#: includes/walkers/class-wp-members-walker-nav-menu.php:169
+msgid "Open link in a new window/tab"
+msgstr "Ouvrir le lien dans une nouvelle fenêtre/un nouvel onglet"
+
+#: includes/walkers/class-wp-members-walker-nav-menu.php:162
+msgid "Title Attribute"
+msgstr "Attribut du titre"
+
+#: includes/walkers/class-wp-members-walker-nav-menu.php:156
+msgid "Navigation Label"
+msgstr "Libellé de la navigation"
+
+#: includes/walkers/class-wp-members-walker-nav-menu.php:149
+msgid "URL"
+msgstr "URL"
+
+#: includes/walkers/class-wp-members-walker-nav-menu.php:138
+msgid "Edit Menu Item"
+msgstr "Modifier un élément du menu"
+
+#: includes/walkers/class-wp-members-walker-nav-menu.php:136
+msgid "Move down"
+msgstr "Déplacer vers le bas"
+
+#: includes/walkers/class-wp-members-walker-nav-menu.php:123
+msgid "Move up"
+msgstr "Déplacer vers le haut"
+
+#. translators: %s: title of menu item in draft status
+#: includes/walkers/class-wp-members-walker-nav-menu.php:96
+msgid "%s (Pending)"
+msgstr "%s (En Attente)"
+
+#. translators: %s: title of menu item which is invalid
+#: includes/walkers/class-wp-members-walker-nav-menu.php:92
+msgid "%s (Invalid)"
+msgstr "%s (non valide)"
+
+#: includes/class-wp-members.php:1621
+msgid "Sorry, you can only upload the following file types for the %s field: %s."
+msgstr "Désolé, le champ %s ne vous permet de téléverser que les types de fichiers suivants : %s."
+
+#: includes/admin/class-wp-members-admin-posts.php:305
+#: includes/admin/class-wp-members-products-admin.php:679
+msgid "Status"
+msgstr "État"
+
+#: includes/walkers/class-wp-members-walker-nav-menu.php:224
+#: includes/admin/class-wp-members-admin-posts.php:219
+msgid "Cancel"
+msgstr "Annuler"
+
+#: includes/admin/class-wp-members-admin-posts.php:218
+msgid "Ok"
+msgstr "Ok"
+
+#: includes/admin/class-wp-members-admin-posts.php:203
+msgid "Status:"
+msgstr "État :"
+
+#: includes/admin/class-wp-members-admin-posts.php:197
+msgid "Hidden"
+msgstr "Caché"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:757
+msgid "Form field order updated."
+msgstr "Ordre des champs du formulaire mise à jour."
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:714
+msgid "%s was updated"
+msgstr "%s a été mis à jour"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:701
+msgid "%s was added"
+msgstr "%s a été ajouté"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:608
+msgid "Meta Key is required. Nothing was updated."
+msgstr "La clé méta est obligatoire. Aucune mise à jour n’a été effectuée."
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:607
+msgid "Field Label is required. Nothing was updated."
+msgstr "Le libellé du champ est obligatoire. Aucune mise à jour n’a été effectuée."
+
+#: includes/admin/tabs/class-wp-members-fields-table.php:107
+msgid "Delete Selected"
+msgstr "Supprimer la sélection"
+
+#: includes/admin/tabs/class-wp-members-fields-table.php:66
+msgid "Sort"
+msgstr "Trier"
+
+#: includes/admin/tabs/class-wp-members-fields-table.php:64
+msgid "Users Search"
+msgstr "Recherche utilisateurs"
+
+#: includes/admin/tabs/class-wp-members-fields-table.php:57
+msgid "Display Label"
+msgstr "Libellé d’affichage"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:450
+msgid "Subscription Type"
+msgstr "Type d’abonnement"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:440
+msgid "Drag and drop to reorder fields"
+msgstr "Glisser-déposer pour réorganiser les champs"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:393
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:715
+msgid "Return to Fields Table"
+msgstr "Revenir au champ Tableau"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:282
+msgid "Columns"
+msgstr "Colonnes"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:278
+msgid "Rows"
+msgstr "Rangées"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:270
+msgid "Maximum Value"
+msgstr "Valeur maximale"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:266
+msgid "Minimum Value"
+msgstr "Valeur minimale"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:257
+msgid "Title"
+msgstr "Titre"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:249
+msgid "Pattern"
+msgstr "Composition"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:241
+msgid "Placeholder"
+msgstr "Texte indicatif"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:234
+msgid "Allow HTML?"
+msgstr "Autoriser le HTML ?"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:228
+msgid "This field is always required"
+msgstr "Ce champ est toujours obligatoire"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:219
+msgid "This field is always displayed"
+msgstr "Le champ est toujours affiché"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:209
+msgid "membership"
+msgstr "inscription"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:206
+msgid "date"
+msgstr "date"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:205
+msgid "number"
+msgstr "numéro"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:136
+msgid "Field Manager Documentation"
+msgstr "Documentation de gestion des champs"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:122
+msgid "Fields deleted"
+msgstr "Champs supprimés"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:95
+msgid "Are you sure you want to delete the following fields?"
+msgstr "Confirmez-vous la suppression des champs suivants ?"
+
+#: includes/admin/dialogs.php:225
+msgid "If you like WP-Members please give it a %s&#9733;&#9733;&#9733;&#9733;&#9733;%s rating. Thanks!!"
+msgstr "Si vous aimez WP-Members, veuillez lui donner une %s&#9733;&#9733;&#9733;&#9733;&#9733;%s note. Merci !"
+
+#: includes/admin/dialogs.php:224
+msgid "Like WP-Members?"
+msgstr "Vous aimez WP-Members ?"
+
+#: includes/admin/tabs/class-wp-members-fields-table.php:108
+#: includes/admin/tabs/class-wp-members-dropins-table.php:117
+msgid "Save Settings"
+msgstr "Enregistrer les réglages"
+
+#: includes/walkers/class-wp-members-walker-nav-menu.php:186
+#: includes/admin/tabs/class-wp-members-dropins-table.php:74
+msgid "Description"
+msgstr "Description"
+
+#: includes/admin/tabs/class-wp-members-dropins-table.php:73
+msgid "Version"
+msgstr "Version"
+
+#: includes/admin/tabs/class-wp-members-dropins-table.php:72
+msgid "File"
+msgstr "Fichier"
+
+#: includes/admin/tabs/class-wp-members-dropins-table.php:70
+msgid "Name"
+msgstr "Nom"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-dropins.php:218
+msgid "You can change location of the dropin folder using the <code>wpmem_dropin_folder</code> filter."
+msgstr "Vous pouvez changer l’emplacement du dossier de dépôt en utilisant le filtre <code>wpmem_dropin_folder</code>."
+
+#: includes/admin/tabs/class-wp-members-admin-tab-dropins.php:217
+msgid "Current dropin folder: "
+msgstr "Dossier de dépôt actuel : "
+
+#: includes/admin/tabs/class-wp-members-admin-tab-dropins.php:216
+msgid "Manage Dropins"
+msgstr "Gérer les dépôts"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-dropins.php:88
+#: includes/admin/tabs/class-wp-members-dropins-table.php:180
+msgid "WP-Members Dropin settings were updated"
+msgstr "Les réglages de WP-Members Dropin sont mis à jour"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:67
+msgid "See the %sUsers Guide on CAPTCHA%s."
+msgstr "Voir les %sguides utilisateurs à propos du CAPTCHA%s."
+
+#: includes/admin/class-wp-members-admin-users.php:343
+msgid "Not Exported"
+msgstr "Non exporté"
+
+#: includes/admin/class-wp-members-admin-users.php:341
+msgid "Deactivated"
+msgstr "Désactivé"
+
+#: includes/admin/class-wp-members-admin-users.php:339
+#: includes/admin/class-wp-members-admin-users.php:398
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:448
+msgid "Activated"
+msgstr "Activé"
+
+#: includes/admin/class-wp-members-admin-users.php:336
+msgid "Expired"
+msgstr "Expiré"
+
+#: includes/admin/class-wp-members-admin-users.php:334
+msgid "Trial"
+msgstr "Essai"
+
+#: includes/admin/class-wp-members-admin-users.php:333
+msgid "Pending"
+msgstr "En attente"
+
+#: includes/admin/class-wp-members-admin-users.php:176
+msgid "%s deactivated"
+msgstr "%s désactivé"
+
+#: includes/admin/class-wp-members-admin-users.php:145
+msgid "%s users deactivated"
+msgstr "%s utilisateurs désactivés"
+
+#: includes/admin/class-wp-members-admin-users.php:29
+#: includes/admin/class-wp-members-admin-users.php:35
+#: includes/admin/class-wp-members-admin-users.php:80
+msgid "Deactivate"
+msgstr "Désactiver"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:383
+msgid "Click to Copy"
+msgstr "Cliquez pour copier"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:356
+msgid "The following is your WP-Members settings information if needed for support."
+msgstr "Vous trouverez ci-dessous vos informations de réglages pour WP-Members si besoin pour le support."
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:354
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:355
+msgid "WP-Members Settings"
+msgstr "Réglages WP-Members"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:336
+msgid "Close"
+msgstr "Fermer"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:204
+msgid "Enables logged in menus"
+msgstr "Active les menus de connexion"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:204
+msgid "Clone menus"
+msgstr "Cloner les menus"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:203
+msgid "Enables creation of different membership products"
+msgstr "Activer la création de différents produits d’adhésion"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:203
+msgid "Enable Products"
+msgstr "Activer les produits"
+
+#: includes/admin/class-wp-members-products-admin.php:165
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:62
+msgid "Posts"
+msgstr "Articles"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:57
+msgid "See the %sUsers Guide on plugin options%s."
+msgstr "Voir les %sguides utilisateurs à propos des options de l’extension%s."
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:56
+msgid "%sChange%s or %sFilter%s this address"
+msgstr "%sChanger%s ou %sfiltrer%s cette adresse"
+
+#: includes/admin/class-wp-members-export.php:36
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:452
+msgid "User ID"
+msgstr "ID utilisateur"
+
+#: includes/admin/class-wp-members-products-admin.php:598
+#: includes/admin/class-wp-members-products-admin.php:680
+msgid "Membership"
+msgstr "Inscription"
+
+#: includes/admin/class-wp-members-products-admin.php:552
+msgid "Required Membership"
+msgstr "Inscription obligatoire"
+
+#: includes/admin/class-wp-members-products-admin.php:482
+msgid "Limit access to:"
+msgstr "Limiter les accès à :"
+
+#: includes/admin/class-wp-members-products-admin.php:239
+#: includes/admin/class-wp-members-products-admin.php:241
+#: includes/admin/class-wp-members-products-admin.php:286
+#: includes/admin/class-wp-members-products-admin.php:288
+msgid "Number"
+msgstr "Numéro"
+
+#: includes/admin/class-wp-members-products-admin.php:231
+msgid "No Role"
+msgstr "Aucun rôle"
+
+#: includes/admin/class-wp-members-products-admin.php:206
+msgid "Name (slug)"
+msgstr "Nom (slug)"
+
+#: includes/admin/class-wp-members-products-admin.php:193
+msgid "Year"
+msgstr "Année"
+
+#: includes/admin/class-wp-members-products-admin.php:193
+msgid "Month"
+msgstr "Mois"
+
+#: includes/admin/class-wp-members-products-admin.php:193
+msgid "Week"
+msgstr "Semaine"
+
+#: includes/admin/class-wp-members-products-admin.php:193
+msgid "Day"
+msgstr "Jours"
+
+#: includes/admin/class-wp-members-products-admin.php:193
+#: includes/admin/class-wp-members-products-admin.php:242
+#: includes/admin/class-wp-members-products-admin.php:289
+msgid "Period"
+msgstr "Période"
+
+#: includes/admin/class-wp-members-products-admin.php:140
+msgid "Membership Product Details"
+msgstr "Détails du produit d’adhésion"
+
+#: includes/admin/class-wp-members-products-admin.php:100
+msgid "Does not expire"
+msgstr "N’expire pas"
+
+#: includes/admin/class-wp-members-products-admin.php:95
+msgid "No role required"
+msgstr "Aucun rôle nécessaire"
+
+#: includes/admin/class-wp-members-products-admin.php:68
+msgid "Last updated"
+msgstr "Dernière mise à jour"
+
+#: includes/admin/class-wp-members-products-admin.php:63
+msgid "Role"
+msgstr "Rôle"
+
+#: includes/admin/class-wp-members-products-admin.php:62
+msgid "Slug"
+msgstr "Slug"
+
+#: includes/admin/tabs/class-wp-members-dropins-table.php:71
+msgid "Enabled"
+msgstr "Activé"
+
+#: includes/admin/class-wp-members-products-admin.php:692
+msgid "Disable"
+msgstr "Désactiver"
+
+#: includes/admin/class-wp-members-products-admin.php:691
+msgid "Enable"
+msgstr "Activer"
+
+#: includes/admin/class-wp-members-products-admin.php:676
+msgid "Product Access"
+msgstr "Accès au produit"
+
+#: includes/class-wp-members.php:1784
+msgid "Show form message dialog"
+msgstr "Afficher la boîte de dialogue des messages"
+
+#: includes/class-wp-members.php:1775
+msgid "Show forms as logged out"
+msgstr "Afficher les formulaires en tant que déconnecté"
+
+#: includes/class-wp-members.php:1633
+msgid "Log Out"
+msgstr "Se déconnecter"
+
+#: includes/class-wp-members-forms.php:2116 includes/class-wp-members.php:1592
+msgid "Please indicate that you agree to the %s Terms of Service %s"
+msgstr "Veuillez indiquer votre accord avec les %s Conditions d’utilisation %s"
+
+#: includes/class-wp-members.php:1560 includes/class-wp-members.php:1640
+msgid "Username or Email"
+msgstr "Nom d’utilisateur ou e-mail"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:93
+#: includes/class-wp-members.php:1552
+msgid "No fields selected for deletion"
+msgstr "Aucun champ sélectionné à supprimer"
+
+#: includes/class-wp-members-shortcodes.php:148
+msgid "This is a generic message to display the form message dialog in the Customizer."
+msgstr "Il s’agit d’un message générique pour afficher la boîte de dialogue de message de formulaire dans l’outil de personnalisation."
+
+#: includes/class-wp-members-products.php:344
+msgid "WP-Members Membership Products"
+msgstr "Produits d’adhésion WP-Members"
+
+#: includes/class-wp-members-products.php:343
+msgid "Membership Product"
+msgstr "Produits d’adhésion"
+
+#: includes/class-wp-members-products.php:340
+msgid "Save %s Details"
+msgstr "Enregistrer les détails de %s"
+
+#: includes/class-wp-members-products.php:339
+msgid "Insert into item"
+msgstr "Insérer dans l’élément"
+
+#: includes/class-wp-members-products.php:338
+msgid "Not found in Trash"
+msgstr "Non trouvé dans la corbeille"
+
+#: includes/class-wp-members-products.php:337
+msgid "Not found"
+msgstr "Introuvable"
+
+#: includes/class-wp-members-products.php:336
+msgid "Search %s"
+msgstr "Rechercher %s"
+
+#: includes/class-wp-members-products.php:334
+#: includes/class-wp-members-products.php:335
+msgid "View %s"
+msgstr "Voir %s"
+
+#: includes/class-wp-members-products.php:333
+msgid "Update %s"
+msgstr "Mettre à jour %s"
+
+#: includes/class-wp-members-products.php:332
+msgid "Edit %s"
+msgstr "Modifier %s"
+
+#: includes/class-wp-members-products.php:331
+msgid "New %s"
+msgstr "Nouveau %s"
+
+#: includes/class-wp-members-products.php:330
+msgid "Add New"
+msgstr "Ajouter"
+
+#: includes/class-wp-members-products.php:329
+msgid "Add New %s"
+msgstr "Ajouter un nouveau %s"
+
+#: includes/class-wp-members-products.php:328
+msgid "All %s"
+msgstr "Tous les %s"
+
+#: includes/admin/class-wp-members-products-admin.php:649
+#: includes/class-wp-members-products.php:327
+msgid "Memberships"
+msgstr "Abonnements"
+
+#: includes/class-wp-members-products.php:322
+msgid "Products"
+msgstr "Produits"
+
+#: includes/class-wp-members-products.php:321
+msgid "Product"
+msgstr "Produit"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:230
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:98
+msgid "Really Simple CAPTCHA"
+msgstr "Really Simple CAPTCHA"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:149
+msgid "Custom read more link (optional):"
+msgstr "Personnaliser le lien « lire la suite » (facultatif) :"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:105
+msgid "Content Blocking"
+msgstr "Blocage du contenu"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:372
+msgid "Value"
+msgstr "Valeur"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:336
+msgid "Values (Displayed|Stored):"
+msgstr "Valeurs (Affichées|Stockées) :"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:177
+#: includes/admin/tabs/class-wp-members-fields-table.php:58
+msgid "Meta Key"
+msgstr "Clé méta"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:694
+msgid "A value is required for hidden fields. Nothing was updated."
+msgstr "Une valeur est obligatoire pour les champs cachés. Rien n’a été mis à jour."
+
+#: includes/admin/class-wp-members-admin-posts.php:125
+msgid "%s unblocked"
+msgstr "%s débloqué"
+
+#: includes/admin/class-wp-members-admin-posts.php:125
+msgid "%s blocked"
+msgstr "%s bloqué"
+
+#: includes/admin/class-wp-members-admin-api.php:297
+msgid "Your custom email message content."
+msgstr "Le contenu personnalisé de votre message e-mail"
+
+#: includes/admin/class-wp-members-admin-api.php:291
+msgid "Custom email"
+msgstr "Courriel personnalisé"
+
+#: includes/class-wp-members.php:2082
+msgid "log out"
+msgstr "déconnexion"
+
+#: includes/class-wp-members.php:1659
+msgid "Password successfully reset!<br /><br />An email containing a new password has been sent to the email address on file for your account."
+msgstr "Votre mot de passe a bien été réinitialisé !<br /><br />Un e-mail contenant le nouveau mot de passe à été envoyé à l’adresse de messagerie liée à votre compte."
+
+#: includes/class-wp-members.php:1658
+msgid "Either the username or email address do not exist in our records."
+msgstr "Le nom d’utilisateur ou l’adresse de messagerie n’existent pas dans nos enregistrements."
+
+#: includes/class-wp-members.php:1657
+msgid "Password successfully changed!"
+msgstr "Votre mot de passe a bien été modifié !"
+
+#: includes/class-wp-members.php:1656
+msgid "Passwords did not match.<br /><br />Please try again."
+msgstr "Les mots de passe ne correspondent pas.<br /><br />Veuillez réessayer."
+
+#: includes/class-wp-members.php:1653
+msgid "Your information was updated!"
+msgstr "Vos informations ont bien été mises à jour !"
+
+#: includes/class-wp-members.php:1648
+msgid "Congratulations! Your registration was successful.<br /><br />You may now log in using the password that was emailed to you."
+msgstr "Félicitations ! Vous inscription est bien prise en compte.<br /><br />Vous pouvez maintenant vous connecter en utilisant le mot de passe qui vous a été envoyé par courriel."
+
+#: includes/class-wp-members.php:1652
+msgid "Sorry, that email address already has an account.<br />Please try another."
+msgstr "Désolé, cette adresse de messagerie est déjà liée à un compte.<br />Veuillez en utiliser une autre."
+
+#: includes/class-wp-members.php:1651
+msgid "Sorry, that username is taken, please try another."
+msgstr "Désolé, ce nom d’utilisateur est déjà utilisé, veuillez en essayer un autre."
+
+#: includes/class-wp-members.php:1647
+msgid "This content is restricted to site members.  If you are an existing user, please log in.  New users may register below."
+msgstr "Ce contenu n’est accessible qu’aux membres du site. Si vous êtes inscrit, veuillez vous connecter. Les nouveaux utilisateurs peuvent s'inscrire ci-dessous."
+
+#: includes/class-wp-members.php:1602
+msgid "Update this file"
+msgstr "Mettre à jour ce fichier"
+
+#: includes/class-wp-members.php:1581
+msgid "Click here"
+msgstr "Cliquer ici"
+
+#: includes/class-wp-members.php:1580
+msgid "Forgot username?"
+msgstr "Nom d’utilisateur oublié ?"
+
+#: includes/class-wp-members-forms.php:2117 includes/class-wp-members.php:1543
+msgid "TOS"
+msgstr "CGU"
+
+#: includes/class-wp-members.php:1542
+msgid "Confirm Password"
+msgstr "Confirmer le mot de passe"
+
+#: includes/class-wp-members.php:1540
+msgid "Biographical Info"
+msgstr "Informations biographique"
+
+#: includes/class-wp-members.php:1539
+msgid "Website"
+msgstr "Site web"
+
+#: includes/class-wp-members.php:1538
+msgid "Confirm Email"
+msgstr "Confirmer le courriel"
+
+#: includes/class-wp-members.php:1536
+msgid "Day Phone"
+msgstr "Téléphone professionnel"
+
+#: includes/class-wp-members.php:1535
+msgid "Country"
+msgstr "Pays"
+
+#: includes/class-wp-members.php:1534
+msgid "Zip"
+msgstr "Code postal"
+
+#: includes/class-wp-members.php:1533
+msgid "State"
+msgstr "État"
+
+#: includes/class-wp-members.php:1532
+msgid "City"
+msgstr "Ville"
+
+#: includes/class-wp-members.php:1531
+msgid "Address 2"
+msgstr "Adresse 2"
+
+#: includes/class-wp-members.php:1530
+msgid "Address 1"
+msgstr "Adresse 1"
+
+#: includes/class-wp-members.php:1529
+msgid "Last Name"
+msgstr "Nom"
+
+#: includes/class-wp-members.php:1528
+msgid "First Name"
+msgstr "Prénom"
+
+#: includes/admin/class-wp-members-admin-users.php:180
+msgid "That user is already active"
+msgstr "Cet utilisateur est déjà actif"
+
+#: includes/admin/class-wp-members-admin-users.php:171
+msgid "%s activated"
+msgstr "%s activé"
+
+#: includes/admin/class-wp-members-admin-users.php:148
+msgid "No users selected"
+msgstr "Aucun utilisateur sélectionné"
+
+#: includes/admin/class-wp-members-admin-users.php:145
+msgid "%s users activated"
+msgstr "%s utilisateurs activés"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:463
+msgid "Custom Post Type settings were updated"
+msgstr "Les réglages des types de publication personnalisés ont été mis à jour"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:301
+msgid "Add to WP-Members Settings"
+msgstr "Ajouter aux réglages de WP-Members"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:295
+msgid "Custom Post Types"
+msgstr "Types de publication personnalisés"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:197
+msgid "Other Settings"
+msgstr "Autres réglages"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:166
+msgid "Subscription Settings"
+msgstr "Réglages de vos abonnements"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:94
+msgid "Content"
+msgstr "Contenu"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:327
+msgid "Stored values delimiter:"
+msgstr "Délimiteur de valeurs enregistrées :"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:207
+msgid "hidden"
+msgstr "caché"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:204
+msgid "url"
+msgstr "url"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:202
+msgid "image"
+msgstr "image"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:200
+msgid "radio group"
+msgstr "Groupe de boutons radio"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:199
+msgid "multiple select"
+msgstr "sélection multiple"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:198
+msgid "select (dropdown)"
+msgstr "sélectionner (menu déroulant)"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:197
+msgid "multiple checkbox"
+msgstr "Cases à cocher multiples"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:194
+msgid "email"
+msgstr "courriel"
+
+#: includes/admin/class-wp-members-admin-posts.php:165
+msgid "%s Restriction"
+msgstr "Restriction des %s"
+
+#: includes/admin/dialogs.php:146
+msgid "If you will not be changing these settings, you can turn off these warning messages by checking the \"Ignore warning messages\" in the settings below."
+msgstr "Si vous ne comptez pas modifier ces réglages, vous pouvez désactiver les messages d’avertissement en cochant la case « Ignorer les messages d’avertissement » dans les réglages ci-dessous."
+
+#: includes/admin/dialogs.php:145
+msgid "You have active settings that are not recommended."
+msgstr "Certains de vos réglages actifs ne sont pas recommandés."
+
+#: includes/class-wp-members.php:1584 includes/class-wp-members.php:1586
+msgid "Retrieve username"
+msgstr "Récupérer le nom d’utilisateur"
+
+#: includes/class-wp-members.php:1585
+msgid "Email Address"
+msgstr "Adresse courriel"
+
+#: includes/class-wp-members.php:1610
+msgid "An email was sent to %s with your username."
+msgstr "Un courriel a été envoyé à %s avec votre nom d’utilisateur."
+
+#: includes/class-wp-members.php:1609
+msgid "Sorry, that email address was not found."
+msgstr "Désolé cette adresse de messagerie n’a pas été trouvée."
+
+#: includes/admin/class-wp-members-admin-api.php:443
+msgid "Retrieve Username"
+msgstr "Récupérer le nom d’utilisateur"
+
+#. Author URI of the plugin
+msgid "http://butlerblog.com/"
+msgstr "http://butlerblog.com/"
+
+#. Author of the plugin
+msgid "Chad Butler"
+msgstr "Chad Butler"
+
+#. Description of the plugin
+msgid "WP access restriction and user registration.  For more information on plugin features, refer to <a href=\"https://rocketgeek.com/plugins/wp-members/users-guide/\">the online Users Guide</a>. A <a href=\"https://rocketgeek.com/plugins/wp-members/quick-start-guide/\">Quick Start Guide</a> is also available. WP-Members(tm) is a trademark of butlerblog.com."
+msgstr "Restriction d’accès WP et inscription d’utilisateurs. Pour plus d’informations sur les fonctionnalités de l’extension voir <a href=\"https://rocketgeek.com/plugins/wp-members/users-guide/\">le guide utilisateur en ligne (en anglais)</a>. Un <a href=\"https://rocketgeek.com/plugins/wp-members/quick-start-guide/\">guide de démarrage rapide (en anglais)</a> est aussi disponible. WP-Members(tm) est une marque déposée de butlerblog.com."
+
+#. Plugin URI of the plugin
+msgid "https://rocketgeek.com"
+msgstr "https://rocketgeek.com"
+
+#. Plugin Name of the plugin
+msgid "WP-Members"
+msgstr "WP-Members"
+
+#: templates/tos.php:34
+msgid "%sprint%s"
+msgstr "%simprimer%s"
+
+#: templates/tos.php:32
+msgid "%sclose%s"
+msgstr "%sfermer%s"
+
+#: templates/tos.php:20 includes/class-wp-members-forms.php:2117
+msgid "Terms of Service"
+msgstr "Conditions d’utilisation (CU)"
+
+#: includes/class-wp-members.php:1892
+msgid "(more&hellip;)"
+msgstr "(plus&hellip;)"
+
+#: includes/class-wp-members-user-profile.php:58
+msgid "Additional Information"
+msgstr "Informations additionnelles"
+
+#: includes/class-wp-members.php:1637
+msgid "click here to log out"
+msgstr "Cliquez ici pour vous déconnecter"
+
+#: includes/class-wp-members.php:1643
+msgid "Forgot?"
+msgstr "Oublié ?"
+
+#: includes/class-wp-members.php:1642 includes/class-wp-members.php:2081
+msgid "log in"
+msgstr "se connecter"
+
+#: includes/class-wp-members.php:1553
+msgid "You are not logged in."
+msgstr "Vous n’êtes pas connecté(e)"
+
+#: includes/class-wp-members.php:1638
+msgid "Login Failed!<br />You entered an invalid username or password."
+msgstr "La connexion a échoué !<br />Vous avez saisi un mot de passe ou un nom d’utilisateur non valide."
+
+#: includes/class-wp-members-shortcodes.php:724
+msgid "Click here to log out."
+msgstr "Cliquez ici pour pour vous déconnecter."
+
+#: includes/deprecated.php:413 includes/class-wp-members-captcha.php:276
+msgid "You have entered an incorrect code value. Please try again."
+msgstr "Vous avez saisi un code incorrect. Merci d’essayer à nouveau."
+
+#: includes/deprecated.php:409
+msgid "The reCAPTCHA server was not reached.  Please try to resubmit."
+msgstr "Le serveur reCAPTCHA n’a pas répondu. Veuillez essayer de nouveau."
+
+#: includes/deprecated.php:405
+msgid "reCAPTCHA API keys are tied to a specific domain name for security reasons."
+msgstr "Les clés API de reCAPTCHA sont liées à un nom de domaine spécifique, par raison de sécurité."
+
+#: includes/deprecated.php:401
+msgid "The parameters to verify were incorrect"
+msgstr "Les paramètres à vérifier étaient incorrects"
+
+#: includes/deprecated.php:397
+msgid "The CAPTCHA solution was incorrect."
+msgstr "La solution du CAPTCHA était incorrecte."
+
+#: includes/deprecated.php:393
+msgid "The challenge parameter of the verify script was incorrect."
+msgstr "Le paramètre du challenge du script de vérification était incorrect."
+
+#: includes/deprecated.php:389
+msgid "We were unable to validate the private key."
+msgstr "Nous n’avons pas pu valider la clé privée."
+
+#: includes/deprecated.php:385
+msgid "We were unable to validate the public key."
+msgstr "Nous n’avons pas pu valider la clé publique."
+
+#: includes/class-wp-members.php:1618
+msgid "CAPTCHA was not valid."
+msgstr "Captcha non valide."
+
+#: includes/class-wp-members.php:1617
+msgid "You must complete the CAPTCHA form."
+msgstr "Vous devez compléter le formulaire CAPTCHA."
+
+#: includes/class-wp-members.php:1616
+msgid "Emails did not match."
+msgstr "Les adresses courriel ne correspondent pas."
+
+#: includes/class-wp-members.php:1615
+msgid "Passwords did not match."
+msgstr "Les mots de passe ne correspondent pas."
+
+#: includes/class-wp-members.php:1614
+msgid "Sorry, username is a required field"
+msgstr "Désolé, le nom d’utilisateur est un champ obligatoire"
+
+#: includes/class-wp-members.php:1613
+msgid "The username cannot include non-alphanumeric characters."
+msgstr "Le nom d’utilisateur ne peut pas contenir des caractères non alphanumériques."
+
+#: includes/class-wp-members.php:1612
+msgid "You must enter a valid email address."
+msgstr "Vous devez saisir une adresse de messagerie valide."
+
+#: includes/class-wp-members-user.php:200 includes/class-wp-members.php:1619
+msgid "There was an error processing the form."
+msgstr "Une erreur s’est produite lors du traitement du formulaire."
+
+#: includes/class-wp-members.php:1591
+msgid "Input the code:"
+msgstr "Entrez le code :"
+
+#: includes/class-wp-members.php:1589
+msgid "New User Registration"
+msgstr "Nouvel utilisateur ?"
+
+#: includes/class-wp-members.php:1590
+msgid "Choose a Username"
+msgstr "Choisissez un Nom d’utilisateur"
+
+#: includes/class-wp-members.php:1601
+msgid "Update Profile"
+msgstr "Mettre à jour le profil"
+
+#: includes/class-wp-members.php:1593
+msgid "Reset Form"
+msgstr "Réinitialiser le formulaire"
+
+#: includes/class-wp-members.php:1596
+msgid "Required field"
+msgstr "Champ requis"
+
+#: includes/class-wp-members.php:1567
+msgid "Click here to register"
+msgstr "Cliquez ici pour vous inscrire"
+
+#: includes/class-wp-members.php:1566
+msgid "New User?"
+msgstr "Nouvel utilisateur ?"
+
+#: includes/class-wp-members.php:1565
+msgid "Click here to reset"
+msgstr "Cliquez ici pour réinitialiser"
+
+#: includes/class-wp-members.php:1564
+msgid "Forgot password?"
+msgstr "Mot de passe oublié ?"
+
+#: includes/class-wp-members.php:1563
+msgid "Remember Me"
+msgstr "Se souvenir de moi"
+
+#: includes/class-wp-members.php:1579
+msgid "Reset Password"
+msgstr "Réinitialiser le mot de passe"
+
+#: includes/class-wp-members.php:1576
+msgid "Reset Forgotten Password"
+msgstr "Réinitialiser le mot de passe oublié"
+
+#: includes/class-wp-members.php:1537 includes/class-wp-members.php:1578
+msgid "Email"
+msgstr "Courriel"
+
+#: includes/class-wp-members.php:1573
+msgid "Update Password"
+msgstr "Mettre à jour le mot de passe"
+
+#: includes/class-wp-members.php:1572
+msgid "Confirm new password"
+msgstr "Confirmer le nouveau mot de passe"
+
+#: includes/class-wp-members.php:1571
+msgid "New password"
+msgstr "Nouveau mot de passe"
+
+#: includes/class-wp-members.php:1562
+#: includes/class-wp-members-shortcodes.php:798
+msgid "Log In"
+msgstr "Connexion"
+
+#: includes/class-wp-members.php:1559
+msgid "Existing Users Log In"
+msgstr "Connexion pour les utilisateurs enregistrés"
+
+#: includes/class-wp-members.php:1541 includes/class-wp-members.php:1561
+#: includes/class-wp-members.php:1641
+msgid "Password"
+msgstr "Mot de passe"
+
+#: includes/admin/class-wp-members-export.php:37
+#: includes/class-wp-members.php:1577 includes/class-wp-members.php:1600
+msgid "Username"
+msgstr "Nom d’utilisateur"
+
+#: includes/class-wp-members.php:1599
+msgid "Edit Your Information"
+msgstr "Modifier vos informations"
+
+#: includes/class-wp-members.php:1608
+msgid "Password fields cannot be empty"
+msgstr "Les mots de passe ne peuvent pas être vides"
+
+#: includes/class-wp-members.php:1632
+msgid "click to log out"
+msgstr "cliquez pour vous déconnecter"
+
+#: includes/class-wp-members.php:1630
+msgid "Click to log out"
+msgstr "Cliquez pour vous déconnecter"
+
+#: includes/class-wp-members.php:1628
+msgid "Begin using the site."
+msgstr "Commencez à utiliser le site."
+
+#: includes/class-wp-members.php:1626 includes/class-wp-members.php:1629
+#: includes/class-wp-members.php:1631 includes/class-wp-members.php:1636
+msgid "You are logged in as %s"
+msgstr "Vous êtes connecté·e en tant que %s"
+
+#: includes/class-wp-members.php:1570 includes/class-wp-members.php:1625
+msgid "Change Password"
+msgstr "Changer le mot de passe"
+
+#: includes/class-wp-members.php:1624
+msgid "Edit My Information"
+msgstr "Modifier mes informations"
+
+#: includes/class-wp-members.php:1607
+msgid "Click here to continue."
+msgstr "Cliquez ici pour continuer."
+
+#: includes/class-wp-members.php:1606
+msgid "You entered an invalid username or password."
+msgstr "Vous avez saisi un nom d’utilisateur ou un mot de passe non valide."
+
+#: includes/class-wp-members.php:1605
+msgid "Login Failed!"
+msgstr "La connexion a échoué !"
+
+#: includes/class-wp-members-user.php:173 includes/class-wp-members.php:1594
+#: includes/class-wp-members.php:1644
+#: includes/class-wp-members-shortcodes.php:795
+msgid "Register"
+msgstr "S’enregistrer"
+
+#: includes/class-wp-members.php:1611
+msgid "Sorry, %s is a required field."
+msgstr "Désolé, %s est un champ obligatoire."
+
+#: includes/class-wp-members-user.php:1102
+msgid "<strong>ERROR</strong>: User has not been activated."
+msgstr "<strong>ERREUR</strong> : l’utilisateur n’a pas été activé."
+
+#: includes/class-wp-members.php:1620
+#: includes/class-wp-members-shortcodes.php:159
+msgid "There was an error with the CAPTCHA form."
+msgstr "Une erreur s’est produite avec le formulaire CAPTCHA"
+
+#: includes/class-wp-members-widget.php:50
+msgid "Redirect to (optional):"
+msgstr "Rediriger vers (facultatif) :"
+
+#: includes/class-wp-members-widget.php:46
+msgid "Title:"
+msgstr "Titre :"
+
+#: includes/class-wp-members-widget.php:39
+#: includes/class-wp-members-widget.php:82
+msgid "Login Status"
+msgstr "État de connexion"
+
+#: includes/class-wp-members-widget.php:24
+msgid "Displays the WP-Members sidebar login."
+msgstr "Afficher la colonne latérale de connexion WP-Members."
+
+#: includes/admin/class-wp-members-admin-users.php:32
+#: includes/admin/class-wp-members-admin-users.php:38
+msgid "Export All Users"
+msgstr "Exporter tous les utilisateurs"
+
+#: includes/admin/class-wp-members-admin-users.php:31
+#: includes/admin/class-wp-members-admin-users.php:37
+msgid "Export"
+msgstr "Exporter"
+
+#: includes/admin/class-wp-members-admin-users.php:28
+#: includes/admin/class-wp-members-admin-users.php:34
+#: includes/admin/class-wp-members-admin-users.php:77
+msgid "Activate"
+msgstr "Activer"
+
+#: includes/class-wp-members-user-profile.php:558
+msgid "IP @ registration"
+msgstr "IP lors de l'inscription"
+
+#: includes/class-wp-members-user-profile.php:504
+msgid "Deactivate this user?"
+msgstr "Désactiver cet utilisateur ?"
+
+#: includes/class-wp-members-user-profile.php:499
+msgid "Reactivate this user?"
+msgstr "Réactiver cet utilisateur ?"
+
+#: includes/class-wp-members-user-profile.php:509
+#: includes/class-wp-members-forms.php:1846
+msgid "Activate this user?"
+msgstr "Activer cet utilisateur ?"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:162
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:306
+#: includes/class-wp-members-user-profile.php:180
+#: includes/class-wp-members-forms.php:1589
+#: includes/class-wp-members-forms.php:1779
+msgid "(required)"
+msgstr "(obligatoire)"
+
+#: includes/class-wp-members-user-profile.php:58
+msgid "WP-Members Additional Fields"
+msgstr "Champs supplémentaires WP-Members"
+
+#: includes/admin/class-wp-members-export.php:162
+msgid "No"
+msgstr "Non"
+
+#: includes/admin/class-wp-members-export.php:50
+msgid "IP"
+msgstr "IP"
+
+#: includes/admin/class-wp-members-export.php:49
+msgid "Registered"
+msgstr "Enregistré"
+
+#: includes/admin/class-wp-members-export.php:47
+#: includes/admin/class-wp-members-products-admin.php:64
+#: includes/admin/class-wp-members-products-admin.php:682
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:451
+msgid "Expires"
+msgstr "Expire"
+
+#: includes/admin/class-wp-members-admin-users.php:335
+#: includes/admin/class-wp-members-export.php:46
+msgid "Subscription"
+msgstr "Abonnement"
+
+#: includes/admin/class-wp-members-export.php:43
+msgid "Activated?"
+msgstr "Activé ?"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:676
+msgid "Select a page"
+msgstr "Sélectionner une page"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:656
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:687
+msgid "USE CUSTOM URL BELOW"
+msgstr "UTILISER L’URL PERSONNALISÉE CI-DESSOUS"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:584
+msgid "WP-Members settings were updated"
+msgstr "Les réglages de WP-Members ont été mis à jour"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:287
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:314
+msgid "Update Settings"
+msgstr "Mettre à jour les réglages"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:282
+msgid "Custom Stylesheet:"
+msgstr "Feuille de style personnalisée :"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:271
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:273
+msgid "Stylesheet"
+msgstr "Feuille de style"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:265
+msgid "For creating a forgot password link in the login form"
+msgstr "Créer un lien de récupération du mot de passe sur le formulaire de connexion"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:262
+msgid "User Profile Page:"
+msgstr "Page du profil de l’utilisateur :"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:253
+msgid "For creating a register link in the login form"
+msgstr "Pour créer un lien d’inscription dans le formulaire de connexion"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:250
+msgid "Register Page:"
+msgstr "Page d’enregistrement :"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:241
+msgid "Specify a login page (optional)"
+msgstr "Spécifier une page de connexion (facultatif)"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:238
+msgid "Login Page:"
+msgstr "Page de connexion :"
+
+#: includes/admin/class-wp-members-products-admin.php:166
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:63
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:234
+msgid "Pages"
+msgstr "Pages"
+
+#: includes/admin/class-wp-members-products-admin.php:467
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:224
+#: includes/class-wp-members-user-profile.php:132
+#: includes/class-wp-members-forms.php:1069
+msgid "None"
+msgstr "Aucun"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:148
+msgid "Number of words in excerpt:"
+msgstr "Nombre de mots de l’extrait :"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:126
+msgid "Auto Excerpt:"
+msgstr "Extrait automatique :"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:220
+msgid "Attribution is appreciated!  Display \"powered by\" link on register form?"
+msgstr "Les crédits sont appréciés ! Montrer le lien « propulsé par » sur le formulaire d’enregistrement"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:218
+msgid "Attribution"
+msgstr "Crédits"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:207
+msgid "Ignores WP-Members warning messages in the admin panel"
+msgstr "Ignorer les messages d’avertissement de WP-Members dans le panneau d’administration"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:207
+msgid "Ignore warning messages"
+msgstr "Ignorer les messages d’avertissement"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:206
+msgid "Holds new registrations for admin approval"
+msgstr "Mettre les nouveaux enregistrements en attente de l’approbation d’un administrateur·rice"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:206
+msgid "Moderate registration"
+msgstr "Modérer les enregistrements"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:205
+msgid "Notify %s for each new registration? %s"
+msgstr "Notifier %s à chaque nouvelle inscription ? %s"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:205
+msgid "Notify admin"
+msgstr "Notifier l’administrateur"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:164
+msgid "Allows for a trial period"
+msgstr "Autoriser une période d’essai"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:164
+msgid "Trial period"
+msgstr "Période d’essai"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:163
+msgid "Allows for access to expire"
+msgstr "Autoriser l’expiration de la session"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:163
+msgid "Time-based expiration"
+msgstr "Expiration du délai"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:125
+msgid "Show Registration Form"
+msgstr "Afficher le formulaire d’inscription"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:124
+msgid "Show Login Form"
+msgstr "Afficher le formulaire de connexion"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:123
+msgid "Show Excerpts"
+msgstr "Afficher les extraits"
+
+#: includes/admin/class-wp-members-admin-posts.php:32
+#: includes/admin/class-wp-members-admin-posts.php:35
+msgid "Hide"
+msgstr "Masquer"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:109
+msgid "Do not block"
+msgstr "Ne pas bloquer"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:90
+msgid "Manage Options"
+msgstr "Modifier les options"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:449
+msgid "Registration IP"
+msgstr "IP de l’inscription"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:446
+msgid "Registration Date"
+msgstr "Date d’inscription"
+
+#: includes/admin/tabs/class-wp-members-fields-table.php:43
+msgid "delete"
+msgstr "supprimer"
+
+#: includes/admin/tabs/class-wp-members-fields-table.php:63
+msgid "Users Screen"
+msgstr "Ecran des utilisateurs"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:486
+msgid "Manage Fields"
+msgstr "Gérer les champs"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:391
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:518
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:519
+msgid "Add Field"
+msgstr "Ajouter un champ"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:365
+msgid "Visit plugin site for more information"
+msgstr "Visitez le site de l’extension pour plus d'informations"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:361
+msgid "Options should be Option Name|option_value,"
+msgstr "Les options doivent être de la forme Nom | valeur_option,"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:306
+msgid "Stored value if checked:"
+msgstr "Valeur stockée si cochée :"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:302
+msgid "Checked by default?"
+msgstr "Coché par défaut ?"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:295
+msgid "Accepted file types should be set like this: jpg|jpeg|png|gif"
+msgstr "Les types de fichiers acceptés doivent être réglés ainsi : jpg|jpeg|png|gif"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:290
+msgid "Accepted file types:"
+msgstr "Types de fichiers acceptés :"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:224
+msgid "Required?"
+msgstr "Obligatoire ?"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:215
+#: includes/admin/tabs/class-wp-members-fields-table.php:60
+msgid "Display?"
+msgstr "Afficher ?"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:203
+msgid "file"
+msgstr "fichier"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:201
+msgid "password"
+msgstr "mot de passe"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:196
+msgid "checkbox"
+msgstr "case à cocher"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:195
+msgid "textarea"
+msgstr "zone de texte"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:193
+msgid "text"
+msgstr "texte"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:187
+#: includes/admin/tabs/class-wp-members-fields-table.php:59
+msgid "Field Type"
+msgstr "Type de champ"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:183
+msgid "The database meta value for the field. It must be unique and contain no spaces (underscores are ok)."
+msgstr "La valeur de la méta dans base de données pour le champ. Elle doit être unique et ne contenir aucun espace (les tirets bas sont OK)."
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:174
+msgid "The name of the field as it will be displayed to the user."
+msgstr "Le nom du champ tel qu’il sera affiché à l’utilisateur."
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:172
+msgid "Field Label"
+msgstr "Libellé du champ"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:167
+msgid "Add a Field"
+msgstr "Ajouter un champ"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:167
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:391
+msgid "Edit Field"
+msgstr "Editer le champ"
+
+#: includes/walkers/class-wp-members-walker-nav-menu.php:140
+#: includes/admin/class-wp-members-admin-posts.php:203
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:68
+#: includes/admin/tabs/class-wp-members-fields-table.php:65
+msgid "Edit"
+msgstr "Modifier"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:663
+msgid "Checked value is required for checkboxes. Nothing was updated."
+msgstr "Une valeur est nécessaire pour les cases à cocher cochées. Rien n’a été mis à jour."
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:622
+msgid "Sorry, \"%s\" is a <a href=\"https://codex.wordpress.org/Function_Reference/register_taxonomy#Reserved_Terms\" target=\"_blank\">reserved term</a>. Field was not added."
+msgstr "Désolé, « %s » est un <a href=\"https://codex.wordpress.org/Function_Reference/register_taxonomy#Reserved_Terms\" target=\"_blank\">terme réservé (en anglais)</a>. Le champ n’a pas été ajouté."
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:617
+msgid "A field with that meta key already exists"
+msgstr "Un champ avec la même clé méta existe déjà"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:610
+msgid "Meta Key must contain only letters, numbers, and underscores"
+msgstr "La clé méta ne doit contenir que des lettres, des chiffres et des tiret bas"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:585
+msgid "WP-Members fields were updated"
+msgstr "Les champs de WP-Members ont été mis à jour"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-emails.php:161
+msgid "WP-Members emails were updated"
+msgstr "Les e-mails de WP-Members ont été mis à jour"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-emails.php:92
+msgid "Update Emails"
+msgstr "Mettre à jour les e-mails"
+
+#: includes/admin/class-wp-members-admin-api.php:295
+msgid "Body"
+msgstr "Contenu"
+
+#: includes/admin/class-wp-members-admin-api.php:292
+#: includes/admin/class-wp-members-admin-api.php:294
+msgid "Subject"
+msgstr "Sujet"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-emails.php:73
+msgid "Set a custom email name"
+msgstr "Définir un nom personnalisé pour l’e-mail"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:161
+#: includes/admin/tabs/class-wp-members-admin-tab-emails.php:70
+#: includes/admin/tabs/class-wp-members-admin-tab-emails.php:74
+#: includes/admin/tabs/class-wp-members-admin-tab-emails.php:84
+msgid "(optional)"
+msgstr "(facultatif)"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-emails.php:69
+msgid "Set a custom email address"
+msgstr "Définir un adresse de messagerie personnalisée"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-emails.php:62
+msgid "A list of shortcodes is available here."
+msgstr "Une liste de codes courts est disponible ici."
+
+#: includes/admin/tabs/class-wp-members-admin-tab-emails.php:60
+msgid "You can customize the content of the emails sent by the plugin."
+msgstr "Vous pouvez personnaliser le contenu des e-mails envoyé par l’extension."
+
+#: includes/admin/tabs/class-wp-members-admin-tab-emails.php:57
+msgid "Email Messages"
+msgstr "Messages e-mail"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-emails.php:84
+msgid "Email Signature"
+msgstr "Signature e-mail"
+
+#: includes/admin/class-wp-members-admin-api.php:451
+msgid "Admin Notification"
+msgstr "Notification Admin"
+
+#: includes/admin/class-wp-members-admin-api.php:436
+msgid "Password Reset"
+msgstr "Réinitialiser le mot de passe"
+
+#: includes/admin/class-wp-members-admin-api.php:428
+msgid "Registration is Moderated, User is Approved"
+msgstr "L’inscription est modérée, l’utilisateur est approuvé"
+
+#: includes/admin/class-wp-members-admin-api.php:412
+msgid "Registration is Moderated"
+msgstr "L’inscription est modérée"
+
+#: includes/admin/class-wp-members-admin-api.php:394
+msgid "New Registration"
+msgstr "Nouvelle inscription"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-dialogs.php:124
+msgid "WP-Members dialogs were updated"
+msgstr "Les dialogues de WP-Members ont été mis à jour"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-dialogs.php:87
+msgid "Update Dialogs"
+msgstr "Mettre à jour les dialogues"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-dialogs.php:80
+msgid "Terms of Service (TOS)"
+msgstr "Conditions d’utilisation (CU)"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-dialogs.php:69
+msgid "You can customize the text for dialogs and error messages. Simple HTML is allowed %s etc."
+msgstr "Vous pouvez personnaliser le texte des dialogues et messages d’erreur. Le HTML simple est autorisé %s, etc."
+
+#: includes/admin/tabs/class-wp-members-admin-tab-dialogs.php:67
+msgid "Dialogs and Error Messages"
+msgstr "Messages d’erreur et zones de dialogue"
+
+#: includes/admin/class-wp-members-admin-api.php:485
+msgid "Password reset"
+msgstr "Réinitialiser le mot de passe"
+
+#: includes/admin/class-wp-members-admin-api.php:484
+msgid "Username or email do not exist when trying to reset forgotten password"
+msgstr "Vous cherchez à rééditer un mot de passe oublié, mais le nom d’utilisateur ou l’e-mail n’existe pas"
+
+#: includes/admin/class-wp-members-admin-api.php:483
+msgid "Password changes"
+msgstr "Mot de passe modifié"
+
+#: includes/admin/class-wp-members-admin-api.php:482
+msgid "Passwords did not match"
+msgstr "Les mots de passe ne concordent pas"
+
+#: includes/admin/class-wp-members-admin-api.php:481
+msgid "User update"
+msgstr "Mise à jour de l’utilisateur"
+
+#: includes/admin/class-wp-members-admin-api.php:480
+msgid "Registration completed"
+msgstr "Inscription terminée"
+
+#: includes/admin/class-wp-members-admin-api.php:479
+msgid "Email is registered"
+msgstr "Cet e-mail est déjà enregistré"
+
+#: includes/admin/class-wp-members-admin-api.php:478
+msgid "Username is taken"
+msgstr "Le nom d’utilisateur est déjà pris"
+
+#: includes/admin/class-wp-members-admin-api.php:477
+msgid "Restricted post (or page), displays above the login/registration form"
+msgstr "Publication restreinte (ou page), s’affiche au dessus du formulaire de connexion/d’inscription"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:318
+msgid "CAPTCHA was updated for WP-Members"
+msgstr "CAPTCHA a été mis à jour pour WP-Members"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:240
+msgid "Update CAPTCHA Settings"
+msgstr "Mettre à jour les réglages CAPTCHA"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:212
+msgid "To use Really Simple CAPTCHA, you must have the Really Simple CAPTCHA plugin installed and activated."
+msgstr "Pour utiliser «  Really Simple CAPTCHA », vous devez avoir l’extension  Really Simple CAPTCHA installée et activée."
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:198
+msgid "Image type"
+msgstr "Type d’image"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:194
+msgid "Width between characters"
+msgstr "Espacement entre les caractères"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:190
+msgid "Font size"
+msgstr "Taille de la police"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:186
+msgid "Background color of image"
+msgstr "Couleur de l’arrière-plan de l’image"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:182
+msgid "Font color of characters"
+msgstr "Couleur de police des caractères"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:179
+msgid "Height"
+msgstr "Hauteur"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:179
+msgid "Width"
+msgstr "Largeur"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:178
+msgid "Image dimensions"
+msgstr "Taille de l’image"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:174
+msgid "Number of characters"
+msgstr "Nombres de caractères"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:170
+msgid "Characters for image"
+msgstr "Caractères pour l’image"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:123
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:139
+msgid "Secret Key"
+msgstr "Clé secrète"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:122
+msgid "Site Key"
+msgstr "Clé du site"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:120
+msgid "reCAPTCHA requires an API key, consisting of a \"site\" and a \"secret\" key. You can sign up for a %s free reCAPTCHA key%s"
+msgstr "reCAPTCHA requiert une clé API, qui consiste en une clé « publique » et une clé « privée ». Vous pouvez vous inscrire pour recevoir vos %s clés reCAPTCHA gratuites%s"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:117
+msgid "reCAPTCHA Keys"
+msgstr "Clés reCAPTCHA"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:85
+msgid "Manage CAPTCHA Options"
+msgstr "Gérer les options de CAPTCHA"
+
+#: includes/admin/tabs/class-wp-members-admin-tab-fields.php:134
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:78
+#: includes/admin/tabs/class-wp-members-admin-tab-emails.php:100
+#: includes/admin/tabs/class-wp-members-admin-tab-captcha.php:74
+#: includes/admin/tabs/class-wp-members-admin-tab-dialogs.php:57
+msgid "Need help?"
+msgstr "Besoin d’aide ?"
+
+#: includes/admin/class-wp-members-export.php:162
+#: includes/admin/class-wp-members-products-admin.php:104
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/admin/class-wp-members-admin-posts.php:196
+msgid "Blocked"
+msgstr "Bloqué"
+
+#: includes/admin/class-wp-members-admin-posts.php:195
+msgid "Unblocked"
+msgstr "Débloqué"
+
+#: includes/admin/class-wp-members-admin-posts.php:30
+#: includes/admin/class-wp-members-admin-posts.php:33
+msgid "Unblock"
+msgstr "Débloquer"
+
+#: includes/admin/class-wp-members-admin-posts.php:31
+#: includes/admin/class-wp-members-admin-posts.php:34
+#: includes/admin/tabs/class-wp-members-admin-tab-options.php:110
+msgid "Block"
+msgstr "Bloquer"
+
+#: includes/admin/dialogs.php:236 includes/admin/dialogs.php:249
+msgid "Latest from ButlerBlog"
+msgstr "Dernières nouvelles du ButlerBlog"
+
+#: includes/admin/dialogs.php:203 includes/admin/dialogs.php:207
+msgid "Latest from RocketGeek"
+msgstr "Dernières nouvelles de RocketGeek"
+
+#: includes/admin/dialogs.php:186
+msgid "Follow"
+msgstr "Suivre"
+
+#: includes/admin/dialogs.php:185
+msgid "A plugin developed by"
+msgstr "Une extension développée par"
+
+#: includes/admin/dialogs.php:184
+msgid "Thank you for using WP-Members"
+msgstr "Merci d’utiliser WP-Members !"
+
+#: includes/admin/dialogs.php:177
+msgid "FAQs"
+msgstr "FAQ"
+
+#: includes/admin/dialogs.php:176
+msgid "Online User Guide"
+msgstr "Guide utilisateur en ligne"
+
+#: includes/admin/dialogs.php:175
+msgid "Quick Start Guide"
+msgstr "Guide de démarrage rapide"
+
+#: includes/admin/dialogs.php:174
+msgid "Version:"
+msgstr "Version :"
+
+#: includes/admin/dialogs.php:141
+msgid "but you have not entered API keys.  You will need both a public and private key.  The CAPTCHA will not display unless a valid API key is included."
+msgstr "mais vous n’avez pas saisi de clé API. Vous aurez besoins à la fois d’une clé publique et privée. Le CAPTCHA ne sera pas affiché tant qu’une clé valide n’aura pas été saisie."
+
+#: includes/admin/dialogs.php:140
+msgid "You have turned on reCAPTCHA"
+msgstr "Vous avez activé reCAPTCHA"
+
+#: includes/admin/dialogs.php:136
+msgid "but you have not changed the default message for \"Registration Completed\" under \"WP-Members Dialogs and Error Messages.\"  You should change this message to let users know they are pending approval."
+msgstr "mais vous n’avez pas modifié le message par défaut pour « Inscription terminée » dans « les messages d’erreur et de dialogue de WP-members ».  Vous devriez modifier ce message pour informer l’utilisateur qu’ils sont en attente d’approbation."
+
+#: includes/admin/dialogs.php:135
+msgid "You have set WP-Members to hold registrations for approval"
+msgstr "Vous avez reglé WP-Members de façon à soumettre les inscriptions à approbation préalable"
+
+#: includes/admin/dialogs.php:131
+msgid "Leaving this set to full text allows anyone to read your protected content in an RSS reader. Changing this to Summary prevents this as your feeds will only show summary text."
+msgstr "Laisser aux lecteurs RSS la possibilité de lire l’intégralité de vos flux permet à n’importe qui de lire votre contenu protégé. Régler le paramètre sur « Extraits » empêche cela dans la mesure ou vos flux n'afficheront que les résumés."
+
+#: includes/admin/dialogs.php:130
+msgid "You can %s change this here %s by changing \"For each article in a feed, show\" to \"Summary.\""
+msgstr "Vous pouvez %s changer ceci %s en modifiant « Pour chaque publication d’un flux, fournir », en « L’extrait »"
+
+#: includes/admin/dialogs.php:129
+msgid "Your WP settings allow full text rss feeds - this is not the recommended setting."
+msgstr "Vos réglages WP permettent de lire l’intégralité des textes dans les flux RSS - ce n’est pas le réglage recommandé."
+
+#: includes/admin/dialogs.php:125
+msgid "This setting allows any users to comment, whether or not they are registered. Depending on how you are using WP-Members will determine whether you should change this setting or not. If you do not change this setting, you can choose to ignore these warning messages under WP-Members Settings."
+msgstr "Ce réglage permet à n’importe quel utilisateur de commenter, qu’il soit enregistré ou pas. En fonction de la façon dont vous utilisez WP-Members, vous devez ou non changer ce réglage. Si vous ne le changez pas, vous pouvez ignorer les messages d’avertissement dans les réglages de WP-Members."
+
+#: includes/admin/dialogs.php:124
+msgid "You can %s change this here %s by checking the box next to \"Users must be registered and logged in to comment.\""
+msgstr "Vous pouvez %s changer cela ici %s en prenant soin de décocher la case « Un utilisateur doit être enregistré et connecté pour publier des commentaires »."
+
+#: includes/admin/dialogs.php:123
+msgid "Your WP settings allow anyone to comment - this is not the recommended setting."
+msgstr "Vos réglages WP autorisent n’importe qui à commenter - ce n’est pas le réglage recommandé."
+
+#: includes/admin/dialogs.php:119
+msgid "This setting allows a link on the /wp-login.php page to register using the WP native registration process thus circumventing any registration you are using with WP-Members. In some cases, this may suit the users wants/needs, but most users should uncheck this option. If you do not change this setting, you can choose to ignore these warning messages under WP-Members Settings."
+msgstr "Ce réglage permet une inscription via le processus d’enregistrement natif de WP depuis un lien sur la page /wp-login.php surchargeant ainsi toute inscription avec WP-Members. Dans certains cas, cela peut convenir aux attentes/besoins de l’utilisateur, mais la plupart des utilisateurs devraient décocher cette option. Si vous ne changez pas ce réglage, vous pouvez permettre de choisir d’ignorer les messages d’avertissement dans les réglages de WP-Members."
+
+#: includes/admin/dialogs.php:118
+msgid "You can %s change this here %s making sure the box next to \"Anyone can register\" is unchecked."
+msgstr "Vous pouvez %s changer cela ici %s en prenant soin de décocher la case « Tout le monde peut s’enregistrer »."
+
+#: includes/admin/dialogs.php:117
+msgid "Your WP settings allow anyone to register - this is not the recommended setting."
+msgstr "Vos réglages WP permettent à n’importe qui de s’enregistrer - ce n’est pas le réglage recommandé."
+
+#: includes/admin/class-wp-members-admin-api.php:378
+msgid "Emails"
+msgstr "E-mails"
+
+#: includes/admin/class-wp-members-admin-api.php:377
+msgid "Dialogs"
+msgstr "Dialogues"
+
+#: includes/admin/class-wp-members-admin-api.php:376
+msgid "Fields"
+msgstr "Champs"
+
+#: includes/admin/class-wp-members-admin-api.php:375
+msgid "Options"
+msgstr "Options"
+
+#: includes/admin/class-wp-members-admin-api.php:641
+msgid "Settings"
+msgstr "Réglages"
