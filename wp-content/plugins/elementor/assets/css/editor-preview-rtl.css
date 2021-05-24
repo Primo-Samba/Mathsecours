@@ -1,4 +1,4 @@
-/*! elementor - v3.2.3 - 05-05-2021 */
+/*! elementor - v3.0.10 - 23-09-2020 */
 @charset "UTF-8";
 .elementor-control-unit-1 {
   width: 27px; }
@@ -255,7 +255,6 @@
   margin-top: 20px; }
 
 .elementor-control {
-  --control-title-size: 12px;
   background-color: #fff;
   position: relative;
   padding: 0 20px 15px; }
@@ -277,7 +276,7 @@
         -ms-flex-direction: column;
             flex-direction: column; }
   .elementor-control .elementor-control-title {
-    font-size: var(--control-title-size);
+    font-size: 12px;
     line-height: 1;
     margin-left: 5px; }
   .elementor-control .elementor-control-spinner {
@@ -467,13 +466,12 @@
           transform: rotate(180deg); }
 
 .elementor-control-responsive-switchers {
+  margin-left: 5px;
   --selected-option: 0;
   --pointer-position: var(--selected-option);
   position: relative;
   width: 2em;
-  height: 2em;
-  margin: calc( -2em + var(--control-title-size)) 0;
-  margin-left: 5px; }
+  height: 2em; }
   .elementor-control-responsive-switchers__holder {
     position: absolute;
     width: 100%;
@@ -911,7 +909,8 @@ a.elementor-responsive-switcher {
   display: none; }
 
 .elementor-control-type-gallery.elementor-control-dynamic .elementor-control-gallery-clear {
-  border-right: 1px solid #d5dadf; }
+  border: solid #d5dadf;
+  border-width: 0 1px; }
 
 .elementor-control-type-gallery .elementor-control-gallery-clear {
   cursor: pointer;
@@ -929,10 +928,9 @@ a.elementor-responsive-switcher {
           border-radius: 3px 0 0 0; }
 
 .e-global__popover {
-  width: 288px;
+  width: 270px;
   z-index: 1;
-  font-size: 12px;
-  padding-right: 10px; }
+  font-size: 12px; }
   .e-global__popover-toggle {
     border: 1px solid #d5dadf;
     border-left: 0;
@@ -1100,8 +1098,7 @@ a.elementor-responsive-switcher {
       font-family: 'eicons';
       font-size: 13px;
       content: '\e90e';
-      text-shadow: 0px 0px 1px #000;
-      z-index: 1; }
+      text-shadow: 0px 0px 1px #000; }
 
 .e-global__preview-item {
   cursor: pointer;
@@ -1151,9 +1148,6 @@ a.elementor-responsive-switcher {
 
 .e-control-global.elementor-control .elementor-control-input-wrapper {
   direction: rtl; }
-
-.e-control-global .elementor-control-spinner {
-  margin-left: 4px; }
 
 .elementor-control-type-hidden {
   display: none !important; }
@@ -1886,33 +1880,27 @@ a.elementor-responsive-switcher {
 .elementor-tab-close {
   display: none !important; }
 
-.elementor-control-type-textarea.elementor-control-dynamic-value .elementor-control-dynamic-switcher,
-.elementor-control-type-code.elementor-control-dynamic-value .elementor-control-dynamic-switcher {
+.elementor-control-type-textarea.elementor-control-dynamic-value .elementor-control-dynamic-switcher {
   -webkit-border-radius: 3px 0 0 3px;
           border-radius: 3px 0 0 3px;
   border-right-width: 0; }
 
-.elementor-control-type-textarea .elementor-control-dynamic-switcher,
-.elementor-control-type-code .elementor-control-dynamic-switcher {
+.elementor-control-type-textarea .elementor-control-dynamic-switcher {
   -webkit-border-radius: 0px 3px;
           border-radius: 0px 3px; }
 
-.elementor-control-type-textarea:not(.elementor-control-dynamic-value) .elementor-control-dynamic-switcher,
-.elementor-control-type-code:not(.elementor-control-dynamic-value) .elementor-control-dynamic-switcher {
+.elementor-control-type-textarea:not(.elementor-control-dynamic-value) .elementor-control-dynamic-switcher {
   position: absolute;
   top: 0;
   left: 0; }
 
-.elementor-control-type-textarea .elementor-control-input-wrapper,
-.elementor-control-type-code .elementor-control-input-wrapper {
+.elementor-control-type-textarea .elementor-control-input-wrapper {
   position: relative; }
 
-.elementor-control-type-textarea textarea,
-.elementor-control-type-code textarea {
+.elementor-control-type-textarea textarea {
   display: block;
   font-family: inherit; }
-  .elementor-control-type-textarea textarea:focus + .elementor-control-dynamic-switcher,
-  .elementor-control-type-code textarea:focus + .elementor-control-dynamic-switcher {
+  .elementor-control-type-textarea textarea:focus + .elementor-control-dynamic-switcher {
     display: none; }
 
 .elementor-control-type-url.elementor-control-dynamic .elementor-input {
@@ -2092,6 +2080,9 @@ a.elementor-responsive-switcher {
 
 .elementor-control-type-wp_widget .quicktags-toolbar input {
   width: auto; }
+
+.elementor-control-type-wysiwyg.elementor-rich-editing-disabled .wp-editor-container {
+  margin-top: 10px; }
 
 .elementor-control-type-wysiwyg * {
   -webkit-box-sizing: content-box;

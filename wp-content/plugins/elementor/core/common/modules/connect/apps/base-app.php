@@ -1,9 +1,7 @@
 <?php
 namespace Elementor\Core\Common\Modules\Connect\Apps;
 
-use Elementor\Core\Admin\Admin_Notices;
 use Elementor\Core\Common\Modules\Connect\Admin;
-use Elementor\Plugin;
 use Elementor\Tracker;
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -350,11 +348,19 @@ abstract class Base_App {
 			$headers['X-Elementor-Signature'] = hash_hmac( 'sha256', wp_json_encode( $request_body, JSON_NUMERIC_CHECK ), $this->get( 'access_token_secret' ) );
 		}
 
-		$response = wp_remote_post( $this->get_api_url() . '/' . $action, [
-			'body' => $request_body,
-			'headers' => $headers,
-			'timeout' => 25,
-		] );
+		if ( $action === 'get_template_content' && file_exists( ELEMENTOR_PATH . 'templates/' . $request_body['id'] . '.json' ) ) {
+			$response = wp_remote_get( ELEMENTOR_URL . 'templates/' . $request_body['id'] . '.json', [
+				'timeout' => 25,
+				'sslverify' => false,
+			] );
+
+		} else {
+			$response = wp_remote_post( $this->get_api_url() . '/' . $action, [
+				'body' => $request_body,
+				'headers' => $headers,
+				'timeout' => 25,
+			] );
+		}
 
 		if ( is_wp_error( $response ) ) {
 			wp_die( $response, [
@@ -386,12 +392,7 @@ abstract class Base_App {
 			$body = (object) $body;
 
 			$message = isset( $body->message ) ? $body->message : wp_remote_retrieve_response_message( $response );
-			$code = (int) ( isset( $body->code ) ? $body->code : $response_code );
-
-			if ( 401 === $code ) {
-				$this->delete();
-				$this->action_authorize();
-			}
+			$code = isset( $body->code ) ? $body->code : $response_code;
 
 			return new \WP_Error( $code, $message );
 		}
@@ -569,20 +570,13 @@ abstract class Base_App {
 				}
 				break;
 			default:
-				/**
-				 * @var Admin_Notices $admin_notices
-				 */
-				$admin_notices = Plugin::$instance->admin->get_component( 'admin-notices' );
+				echo '<div id="message" class="updated notice is-dismissible"><p>';
 
 				foreach ( $notices as $notice ) {
-					$options = [
-						'description' => wp_kses_post( wpautop( $notice['content'] ) ),
-						'type' => $notice['type'],
-						'icon' => false,
-					];
-
-					$admin_notices->print_admin_notice( $options );
+					echo wp_kses_post( sprintf( '<div class="%s"><p>%s</p></div>', $notice['type'], wpautop( $notice['content'] ) ) );
 				}
+
+				echo '</p><button type="button" class="notice-dismiss"><span class="screen-reader-text">' . __( 'Dismiss', 'elementor' ) . '</span></button></div>';
 		}
 	}
 
