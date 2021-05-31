@@ -1,0 +1,26 @@
+/* --------- Content -------- */
+.dce-content{
+    display: block;
+}
+.dce-content.unfolded{
+    overflow: hidden;
+    transition: height 0.5s ease;
+}
+
+
+/*.unfold-btn:before{
+  content: '';
+  background-color: #ccc;
+  height: 2px;
+  width: 50%;
+}
+.unfold-btn:after{
+  content: '';
+  background-color: #FFF;
+  height: 2px;
+  width: 50%;
+}*/
+.unfold-btn a{
+    display: block;
+    text-align: center;
+}
